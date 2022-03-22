@@ -1,0 +1,84 @@
+body {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+}
+
+.tituloForm{
+text-align: center;
+color: rgb(140, 0, 255);
+}
+
+.botao{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1em;
+}
+
+.obrigatorio{
+color: rgb(255, 0, 0);
+}
+
+.botao button{
+background-color: rgb(140, 0, 255);
+width: 100px;
+height: 30px;
+color: white;
+border: 1px solid rgb(140, 0, 255);
+cursor: pointer;
+}
+
+
+.botao button:hover{ 
+  opacity: .6;
+}
+
+.label{
+  color: white;
+  margin-bottom: 1em;
+  font-weight: bold;
+  display: flex;
+}
+
+.msgSuccess {
+  color: white;
+  background-color: green;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.msgError{
+  color: white;
+  background-color: #c94545;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input{
+  width: 15em;
+  height: 1em;
+  padding: 6px;
+ 
+}
+
+.form {
+  background: linear-gradient(to bottom, #5f5f5f 0%, #000000 100%);
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 0 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
